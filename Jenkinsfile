@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // This step only applies if you're NOT using "Pipeline script from SCM"
-                git 'https://github.com/your-username/demo-app.git'
+                git 'https://github.com/SHARAN-RH/demo-app.git'
             }
         }
 
