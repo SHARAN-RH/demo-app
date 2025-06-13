@@ -1,1 +1,2 @@
-FROM alpine\nCMD ["echo", "Hello Jenkins!"]
+FROM alpine
+CMD ["echo", "Hello Jenkins!"]
